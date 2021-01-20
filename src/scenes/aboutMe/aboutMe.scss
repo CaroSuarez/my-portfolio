@@ -1,0 +1,67 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+$Header1 : 'Passero One', cursive;
+$Header2 : 'Advent Pro', sans-serif;
+$LogoFont : 'Hachi Maru Pop';
+$ContentText : 'Red Hat Display', sans-serif;
+
+$white : #FFFFFF;
+$yellow : #FBE40F;
+$blue : #093579;
+$pink : #CA2088;
+$lightBlue : #A3C4BC;
+
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#root { 
+    display: flex;
+    flex-direction: column;
+    background: transparent url('../../assets/backgroundExported.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+
+
+#welcomeTittle {
+
+    font-family: $Header2;
+    font-size: 40px;    
+    margin: auto;
+    justify-content: center;
+    color: $white;
+
+    div {
+        
+        width: fit-content;
+        margin: 7px auto;
+    }
+
+
+
+    em {
+        font-family: $LogoFont;
+        font-style: normal;
+        font-weight: bolder;
+        
+        line-height: 36px
+    }
+
+    #frontEnd {
+        font-family: $Header1;
+        color: $yellow;
+        font-size: 30px;
+    }
+
+}
